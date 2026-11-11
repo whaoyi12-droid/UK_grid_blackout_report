@@ -42,3 +42,5 @@ html{scroll-behavior:auto;scroll-padding-top:0}body{overflow:hidden}.site-header
 .clock-colon{animation:none;opacity:var(--clock-colon-opacity)}
 @keyframes clock-shared-pulse{0%,49.9%{--clock-colon-opacity:1}50%,100%{--clock-colon-opacity:.18}}
 @media(prefers-reduced-motion:reduce){.clock-face{animation:none;--clock-colon-opacity:1}.clock-colon{opacity:1}}
+
+.derived-inertia{margin-top:10px;font-size:14px;color:var(--accent,#57c9e8)}

@@ -63,8 +63,9 @@ try {
   assert.equal(await page.getByRole('img', { name: '频率变化率曲线，数据可通过时间滑块读取' }).count(), 1);
   await page.getByRole('tab', { name: '功率缺额', exact: true }).click();
   assert.equal(await page.getByRole('img', { name: '功率不平衡曲线，数据可通过时间滑块读取' }).count(), 1);
-  await page.locator('#inertia').fill('2'); assert.equal(await page.getByTestId('inertia-value').innerText(), '2.00');
-  await page.locator('#inertia').fill('6.5'); assert.equal(await page.getByTestId('inertia-value').innerText(), '6.50');
+  assert.equal(await page.locator('#inertia').count(), 0);
+  for (const [share, h] of [[0,'6.35'],[20,'5.08'],[37,'4.00'],[56,'2.79'],[70,'1.90']]) { await page.locator('#renewable-share').fill(String(share)); assert.equal(await page.getByTestId('inertia-value').innerText(),h); assert.equal(await page.getByTestId('share-value').innerText(),String(share)); }
+  await page.locator('.preset').nth(0).click(); assert.equal(await page.locator('#renewable-share').inputValue(),'20');
   await page.getByRole('button', { name: '恢复基准', exact: true }).click();
   await page.getByRole('button', { name: '完整 200 秒', exact: true }).click();
   await page.getByRole('slider', { name: '仿真时间', exact: true }).fill('200');
