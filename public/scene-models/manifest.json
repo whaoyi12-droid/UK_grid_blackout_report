@@ -1,0 +1,107 @@
+[
+  {
+    "style": "line",
+    "phase": "normal",
+    "file": "line-0-normal.svg"
+  },
+  {
+    "style": "line",
+    "phase": "fault",
+    "file": "line-1-fault.svg"
+  },
+  {
+    "style": "line",
+    "phase": "cascade",
+    "file": "line-2-cascade.svg"
+  },
+  {
+    "style": "line",
+    "phase": "defence",
+    "file": "line-3-defence.svg"
+  },
+  {
+    "style": "line",
+    "phase": "stable",
+    "file": "line-4-stable.svg"
+  },
+  {
+    "style": "line",
+    "phase": "restore",
+    "file": "line-5-restore.svg"
+  },
+  {
+    "style": "line",
+    "phase": "restored",
+    "file": "line-6-restored.svg"
+  },
+  {
+    "style": "pixel",
+    "phase": "normal",
+    "file": "pixel-0-normal.svg"
+  },
+  {
+    "style": "pixel",
+    "phase": "fault",
+    "file": "pixel-1-fault.svg"
+  },
+  {
+    "style": "pixel",
+    "phase": "cascade",
+    "file": "pixel-2-cascade.svg"
+  },
+  {
+    "style": "pixel",
+    "phase": "defence",
+    "file": "pixel-3-defence.svg"
+  },
+  {
+    "style": "pixel",
+    "phase": "stable",
+    "file": "pixel-4-stable.svg"
+  },
+  {
+    "style": "pixel",
+    "phase": "restore",
+    "file": "pixel-5-restore.svg"
+  },
+  {
+    "style": "pixel",
+    "phase": "restored",
+    "file": "pixel-6-restored.svg"
+  },
+  {
+    "style": "layered",
+    "phase": "normal",
+    "file": "layered-0-normal.svg"
+  },
+  {
+    "style": "layered",
+    "phase": "fault",
+    "file": "layered-1-fault.svg"
+  },
+  {
+    "style": "layered",
+    "phase": "cascade",
+    "file": "layered-2-cascade.svg"
+  },
+  {
+    "style": "layered",
+    "phase": "defence",
+    "file": "layered-3-defence.svg"
+  },
+  {
+    "style": "layered",
+    "phase": "stable",
+    "file": "layered-4-stable.svg"
+  },
+  {
+    "style": "layered",
+    "phase": "restore",
+    "file": "layered-5-restore.svg"
+  },
+  {
+    "style": "layered",
+    "phase": "restored",
+    "file": "layered-6-restored.svg"
+  }
+]
